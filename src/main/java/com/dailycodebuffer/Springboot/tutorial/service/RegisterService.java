@@ -26,9 +26,9 @@ public class RegisterService {
         return regRepoInterface.getReferenceByEmail(emailFromLogIn);
     }
 
-    public List<Register> registeredUsers(){
+    /*public List<Register> registeredUsers(){
         return regRepoInterface.findAll();
-    }
+    }*/
 
     public boolean doesStudentIdExist(String studentId) {
         return regRepoInterface.existsByStudentId(studentId);

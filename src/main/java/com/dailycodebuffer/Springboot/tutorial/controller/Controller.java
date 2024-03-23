@@ -38,7 +38,10 @@ public class Controller {
 
     }
 
-
+    /*@GetMapping("/registeredUsers")
+    public List<Register> currentUser(){
+        return registerService.registeredUsers();
+    }*/
 
 
     //Event
